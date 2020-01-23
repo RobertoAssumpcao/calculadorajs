@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+.textview
+{
+    width: 217px;
+    margin: 5px;
+    font-size: 18px;
+    padding: 5px; 
+    border: none;
+    color: black;   
+}
+.fundo
+{
+    background: linear-gradient(to left, #0000CD, #BFEFFF);
+    height: 100%;
+}
+.tecla
+{
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 2px;
+    background:#828282;
+    border: none;
+    color: white;
+}
+

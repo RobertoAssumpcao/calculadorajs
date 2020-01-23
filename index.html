@@ -1,0 +1,84 @@
+<!doctype hyml>
+<html>
+    <head>
+        <title>Calculadora Roberto</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen"/>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="fundo"></div>
+        <div class="main">
+                <h1>Calculadora</h1>
+            <form name="form">
+                <input class="textview" name="textview">
+            </form>
+            <table>
+                <tr>
+                    <td>
+                        <input onclick="limpar()" class="tecla" type="button" value="C">
+                    </td>
+                    <td>
+                        <input onclick="inserir('%')"class="tecla" type="button" value="%">
+                    </td>
+                    <td>
+                        <input onclick="inserir('*')"class="tecla" type="button" value="*">
+                    </td>
+                    <td>
+                        <input onclick="inserir('/')" class="tecla" type="button" value="/">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input onclick="inserir(7)"class="tecla" type="button" value="7">
+                    </td>
+                    <td>
+                        <input onclick="inserir(8)" class="tecla" type="button" value="8">
+                    </td>
+                    <td>
+                        <input onclick="inserir(9)"class="tecla" type="button" value="9">
+                    </td>
+                    <td>
+                        <input onclick="inserir('+')"class="tecla" type="button" value="+">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input onclick="inserir(4)"class="tecla" type="button" value="4">
+                    </td>
+                    <td>
+                        <input onclick="inserir(5)"class="tecla" type="button" value="5">
+                    </td>
+                    <td>
+                        <input onclick="inserir(6)"class="tecla" type="button" value="6">
+                    </td>
+                    <td>
+                        <input onclick="inserir('-')" class="tecla" type="button" value="-">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input onclick="inserir(3)"class="tecla" type="button" value="3">
+                    </td>
+                    <td>
+                        <input onclick="inserir(2) "class="tecla" type="button" value="2">
+                    </td>
+                    <td>
+                        <input onclick="inserir(1)" class="tecla" type="button" value="1">
+                    </td>
+                    <td rowspan="2">
+                        <input style="height: 106px;" onclick="calcu()" class="tecla" type="button" value="=">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan=2>
+                        <input style="width: 106px;" onclick="inserir(0)" class="tecla" type="button" value="0">
+                    </td>
+                    <td>
+                        <input onclick="inserir('.')" class="tecla" type="button" value=".">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
